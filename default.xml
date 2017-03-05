@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- remote: name 名称，fetch 远程地址 -->
+  <remote name="origin"
+          fetch="ssh://git@www.catchitime.com:8022/diffusion"/>
+  <remote name="github"
+          alias = "origin"
+          fetch="https://github.com/yishuiliunian/"/>
+</manifest>
